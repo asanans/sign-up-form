@@ -87,9 +87,16 @@ body {
 label {
     text-transform: uppercase;
     display: block;
-    font-size: 10px;
+    font-size: 9px;
     letter-spacing: 0.2em;
-    color: #353535;
+    color: hsl(0, 0%, 28%);
+    margin-bottom: 3px;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    padding: 3px;
+    border-radius: 5px;
 }
 
 button {
